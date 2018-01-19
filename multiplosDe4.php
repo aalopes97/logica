@@ -1,11 +1,12 @@
 <?php
 
-/*Exibe o nome 100 vezes*/
-for($i=1;  $i<=5; $i++)  {
-      for($j= 5; $j>=i; $j--){
-       echo "* \n";  
+/*Multiplos de 4*/
+for($i=1; $i<=100; $i++) {
+      if(($i % 4) == 0){
+        echo $i."PIN \n";
+      }
+      else{
+        echo $i."\n";
       }
    }
-}
-
  ?>
